@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="description"
+      content="We are a family-owned business managing 5+ swaths in California. We bottle our honey with love and care.."
+    />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+    ></script>
+    <script defer src="js/script.js"></script>
+
+    <title>Honey Production</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="Omnifood logo" src="img/logotype.png" />
+      </a>
+
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#how">What we do</a></li>
+          <li><a class="main-nav-link" href="#meals">Honey</a></li>
+          <li>
+            <a class="main-nav-link" href="#testimonials">Testimonials</a>
+          </li>
+          <li><a class="main-nav-link" href="#questions">Questions</a></li>
+          <li><a class="main-nav-link" href="#store">Store</a></li>
+          <li><a class="main-nav-link nav-cta" href="#store">Buy honey</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">HONEYBEE</h1>
+            <p class="hero-description">
+              By collecting honey from the very ground level, and with our
+              ethical and honest approach we have made available the best
+              quality honey and other products from the Bee Hive.
+            </p>
+            <a href="#store" class="btn btn--full margin-right-sm">Buy now</a>
+
+            <a href="#how" class="btn btn--outline">Learn more &darr;</a>
+            <div class="delivered-meals">
+              <div class="delivered-imgs">
+                <img src="img/customers/customer-1.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-2.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-3.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-4.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-5.jpg" alt="Customer photo" />
+                <img src="img/customers/customer-6.jpg" alt="Customer photo" />
+              </div>
+              <p class="delivered-text"><span>500+</span> positive reviews!</p>
+            </div>
+          </div>
+          <div class="hero-img-box">
+            <picture>
+              <source srcset="img/hero.webp" type="image/webp" />
+              <source srcset="img/hero-min.png" type="image/png" />
+
+              <img src="img/hero-min.png" class="hero-img" alt="honey" />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-how" id="how">
+        <div class="container">
+          <span class="subheading">Services</span>
+          <h2 class="heading-secondary">
+            What we do <br />
+            Learn more below about our services
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols grid--center-v">
+          <!-- STEP 01 -->
+          <div class="step-text-box">
+            <p class="step-number">01</p>
+            <h3 class="heading-tertiary">Honey Production</h3>
+            <p class="step-description">
+              Our skilled beekeepers meticulously harvest honey from our
+              thriving colonies, which is then carefully processed and bottled
+              in our facility before being offered for sale to discerning
+              customers who appreciate the pure, natural essence of our
+              artisanal product.
+            </p>
+          </div>
+
+          <div class="step-img-box">
+            <img src="img/box/screen-1.jpg" class="step-img" alt="production" />
+          </div>
+
+          <!-- STEP 02 -->
+          <div class="step-img-box">
+            <img src="img/box/screen-2.jpg" class="step-img" alt="shop" />
+          </div>
+          <div class="step-text-box">
+            <p class="step-number">02</p>
+            <h3 class="heading-tertiary">Honey Shop</h3>
+            <p class="step-description">
+              Our online store features an extensive selection of over ten
+              distinct varieties of organic, raw honey, each meticulously
+              sourced and curated to provide a diverse array of flavors and
+              benefits to our clientele.
+            </p>
+          </div>
+
+          <!-- STEP 03 -->
+          <div class="step-text-box">
+            <p class="step-number">03</p>
+            <h3 class="heading-tertiary">Beekeeping Classes</h3>
+            <p class="step-description">
+              We encourage you to take advantage of our seamless booking system
+              to schedule bespoke excursions and comprehensive workshops at our
+              extensive beekeeping sites, designed to provide an in-depth and
+              interactive insight into the fascinating world of apiculture.
+            </p>
+          </div>
+          <div class="step-img-box">
+            <img src="img/box/screen-3.jpg" class="step-img" alt="excursion" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section-meals" id="meals">
+        <div class="container center-text">
+          <span class="subheading">Honey</span>
+          <h2 class="heading-secondary">
+            We produce only natural honey without any impurities
+          </h2>
+        </div>
+
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <div class="meal">
+            <img src="img/honey/honey-1.png" class="meal-img" alt="honey-1" />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Vegetarian</span>
+                <span class="tag tag--paleo">Paleo</span>
+              </div>
+              <p class="meal-title">Clover Honey</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>300</strong> calories per 100g</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span>Very <strong>tender </strong>taste</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.9</strong> rating (350)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="meal">
+            <img src="img/honey/honey-2.png" class="meal-img" alt="honey-2" />
+            <div class="meal-content">
+              <div class="meal-tags">
+                <span class="tag tag--vegetarian">Vegetarian</span>
+                <span class="tag tag--paleo">Paleo</span>
+              </div>
+              <p class="meal-title">Buckwheat Honey</p>
+              <ul class="meal-attributes">
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="flame-outline"></ion-icon>
+                  <span><strong>286</strong> calories per 100g</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon
+                    class="meal-icon"
+                    name="restaurant-outline"
+                  ></ion-icon>
+                  <span><strong>Robust</strong> taste</span>
+                </li>
+                <li class="meal-attribute">
+                  <ion-icon class="meal-icon" name="star-outline"></ion-icon>
+                  <span><strong>4.8</strong> rating (275)</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="diets">
+            <h3 class="heading-tertiary">The benefits of honey:</h3>
+            <ul class="list">
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Nutritional Value</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Antibacterial Properties</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Cough Suppressant</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Boosts Energy</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Skin Care</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Digestive Health</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Allergy Relief</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Wound Healing</span>
+              </li>
+              <li class="list-item">
+                <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+                <span>Improved Sleep</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="container all-recipes">
+          <a href="#store" class="link">See all products &rarr;</a>
+        </div>
+      </section>
+
+      <section class="section-testimonials" id="testimonials">
+        <div class="testimonials-container">
+          <span class="subheading">Testimonials</span>
+          <h2 class="heading-secondary">What Our Clients Say</h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Dean Nillstrom"
+                src="img/customers/customer-2.jpg"
+              />
+              <blockquote class="testimonial-text">
+                This smells and taste wonderful, has a really distinctive
+                fragrance that i have not tasted before in a honey. Very happy
+                with my purchase.
+              </blockquote>
+              <p class="testimonial-name">&mdash; Dean Nillstrom</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Ben Hadley"
+                src="img/customers/ben.jpg"
+              />
+              <blockquote class="testimonial-text">
+                Efficient delivery. Great packaging to ensure the product was
+                not damage while in transit. No artificial ingredients or added
+                preservatives
+              </blockquote>
+              <p class="testimonial-name">&mdash; Ben Hadley</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Steve Miller"
+                src="img/customers/steve.jpg"
+              />
+              <blockquote class="testimonial-text">
+                I love both the runny consistency and the sweet, pure, earthy
+                taste - like the rainforest with every spoonful!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Steve Miller</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of customer Jessica Petterson"
+                src="img/customers/customer-6.jpg"
+              />
+              <blockquote class="testimonial-text">
+                This is by far the best honey I’ve ever had! I was never a fan
+                of honey till I came across your company. I clearly wasn’t
+                having the right stuff!
+              </blockquote>
+              <p class="testimonial-name">&mdash; Jessica Petterson</p>
+            </figure>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-1.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+            <!-- <figcaption>Caption</figcaption> -->
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-2.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-3.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-4.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-5.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-6.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-7.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-8.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-9.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-10.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-11.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-12.jpg"
+              alt="Photo of beautifully
+            arranged food"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section class="section-questions" id="questions">
+        <div class="container center-text">
+          <span class="subheading">FAQ</span>
+          <h2 class="heading-secondary">Honey Questions</h2>
+        </div>
+
+        <div class="container questions">
+          <div class="question-img-box">
+            <img src="img/question-photo.png" class="question-img" />
+          </div>
+
+          <div class="questions-box">
+            <h2 class="heading-tertiary">
+              Below are the most popular questions from our clients
+            </h2>
+
+            <div class="question">
+              <div class="question-header">
+                <h3 class="heading-question">What is raw honey?</h3>
+                <ion-icon name="chevron-down-outline" class="arrow"></ion-icon>
+              </div>
+
+              <p class="question-description">
+                Raw honey is honey as it is in the beehive. Raw honey is made by
+                extracting honey from the honeycombs and separating it from
+                impurities. It doesn't contain any hidden sugars and is not
+                pasteurized or processed.
+              </p>
+            </div>
+            <div class="question">
+              <div class="question-header">
+                <h3 class="heading-question">
+                  Can your honey cause allergies?
+                </h3>
+                <ion-icon name="chevron-down-outline" class="arrow"></ion-icon>
+              </div>
+              <p class="question-description">
+                We sell pure organic honey but it can cause allergies, indeed.
+                Typical symptoms are the same as common pollen allergy symptoms:
+                runny nose, sneezing, and swelling.
+              </p>
+            </div>
+            <div class="question">
+              <div class="question-header">
+                <h3 class="heading-question">
+                  What payment options do you provide?
+                </h3>
+                <ion-icon name="chevron-down-outline" class="arrow"></ion-icon>
+              </div>
+              <p class="question-description">
+                We accept Visa and MasterCard cards issued by any American bank.
+                You can also use PayPal.
+              </p>
+            </div>
+            <div class="question">
+              <div class="question-header">
+                <h3 class="heading-question">
+                  Why does the assortment change sometimes?
+                </h3>
+                <ion-icon name="chevron-down-outline" class="arrow"></ion-icon>
+              </div>
+              <p class="question-description">
+                We bottle honey 3-4 times per year, according to the harvest
+                seasons. Our capabilities are limited to around 3000 jars a
+                year. Therefore, depending on the season, there may be different
+                honey in our assortment, and some products may be temporarily
+                unavailable.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-store" id="store">
+        <div class="container center-text">
+          <span class="subheading">Store</span>
+          <h2 class="heading-secondary-store">Our Honey</h2>
+          <p class="store-description">
+            Shop our best honey bottled this season. We produce only natural,
+            raw, and sweet honey <br />
+            without any impurities or additives. If you want to buy honey, hurry
+            up!
+          </p>
+        </div>
+
+        <div class="all-products">
+          <div class="product">
+            <img src="img/honey/honey-1.png" />
+            <div class="product-info">
+              <h4 class="product-title">Clover Honey</h4>
+              <p class="product-price">$8,00USD</p>
+              <a href="#cta" class="btn btn--full btn-store">Buy now</a>
+            </div>
+          </div>
+          <div class="product">
+            <img src="img/honey/honey-2.png" />
+            <div class="product-info">
+              <h4 class="product-title">Clover Honey</h4>
+              <p class="product-price">$10,00USD</p>
+              <a href="#cta" class="btn btn--full btn-store">Buy now</a>
+            </div>
+          </div>
+          <div class="product">
+            <img src="img/honey/honey-3.png" />
+            <div class="product-info">
+              <h4 class="product-title">Citrus Blossom Honey</h4>
+              <p class="product-price">$15,00USD</p>
+              <a href="#cta" class="btn btn--full btn-store">Buy now</a>
+            </div>
+          </div>
+          <div class="product">
+            <img src="img/honey/honey-4.png" />
+            <div class="product-info">
+              <h4 class="product-title">Wildflofer Honey</h4>
+              <p class="product-price">$7,00USD</p>
+              <a href="#cta" class="btn btn--full btn-store">Buy now</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-feature">
+        <div class="container grid grid--4-cols">
+          <div class="feature">
+            <ion-icon
+              class="feature-icon"
+              name="trending-up-outline"
+            ></ion-icon>
+            <p class="feature-title">2574</p>
+            <p class="feature-text">Honey jars produced in 2022</p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="person-outline"></ion-icon>
+            <p class="feature-title">130</p>
+            <p class="feature-text">Customers every month</p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="leaf-outline"></ion-icon>
+            <p class="feature-title">12</p>
+            <p class="feature-text">Swaths in California</p>
+          </div>
+          <div class="feature">
+            <ion-icon class="feature-icon" name="heart-outline"></ion-icon>
+            <p class="feature-title">3946</p>
+            <p class="feature-text">Bees working for you</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-cta" id="cta">
+        <div class="container">
+          <div class="cta">
+            <div class="cta-text-box">
+              <h2 class="heading-secondary">Newsletter Sign Up!</h2>
+              <p class="cta-text">
+                Sign up for our email newsletter and receive beekeeping how-to
+                guides, recipes, queen bee availability, seasonal class
+                information, and current ordering information.
+              </p>
+
+              <form class="cta-form" name="sign-up" netlify>
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    type="text"
+                    placeholder="John Smith"
+                    name="full-name"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    name="email"
+                    required
+                  />
+                </div>
+
+                <div>
+                  <label for="select-where">Where did you hear from us?</label>
+                  <select id="select-where" name="select-where" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="friends">Friends and family</option>
+                    <option value="youtube">YouTube video</option>
+                    <option value="podcast">Podcast</option>
+                    <option value="ad">Facebook ad</option>
+                    <option value="others">Others</option>
+                  </select>
+                </div>
+
+                <button class="btn btn--form">Sign up now</button>
+              </form>
+            </div>
+            <div
+              class="cta-img-box"
+              role="img"
+              aria-label="Woman enjoying food"
+            ></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+          <a href="#" class="footer-logo">
+            <img class="logo" alt="Omnifood logo" src="img/logotype.png" />
+          </a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+
+          <p class="copyright">
+            Copyright &copy; <span class="year">2024</span> by HoneyBee, Inc.
+            All rights reserved.
+          </p>
+        </div>
+
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">44670 Mattole Rd, Honeydew, CA 95545</p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370">415-201-6370</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@omnifood.com"
+                >hello@honeybee.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Account</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Create account</a></li>
+            <li><a class="footer-link" href="#">Sign in</a></li>
+            <li><a class="footer-link" href="#">iOS app</a></li>
+            <li><a class="footer-link" href="#">Android app</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About HoneyBee</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Cooking partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </nav>
+
+        <nav class="nav-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">Recipe directory </a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+          </ul>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
